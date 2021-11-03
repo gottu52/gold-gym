@@ -31,18 +31,22 @@ a {
 /* carousel */
 #carousel-container {
     width:80%;
+    max-height: 750px;
     margin:0 auto;
 }
 #carousel-images {
     width:78%;
+    max-height: 500px;
     margin:0 auto;
     text-align:center;
 }
 .carousel-image {
     width:100%;
+    max-height: 500px;
 }
 .carousel-view > img{
     width:100%;
+    max-height: 200px;
 } 
 /* header */
 .header-container {
