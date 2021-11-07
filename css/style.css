@@ -186,12 +186,15 @@ main::before {
 .price-contents {
     margin:0;
     padding:0;
-    width:33%;
+    width:40%;
     text-align:center;
 }
 .price-content {
     font-size:30px;
     font-weight:bold;
+}
+#price-target {
+    width: 20px;
 }
 .red {
     color:red;
@@ -270,7 +273,7 @@ footer > p {
     margin-right:20px;
 }
 #address-text {
-    width:300px;
+    width:200px;
 }
 #submit {
     margin-top:20px;
