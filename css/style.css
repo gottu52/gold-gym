@@ -18,7 +18,10 @@ a {
 .anchor {
     margin-bottom:240px;
 }
-
+/* top */
+#top {
+    background: black;
+}
 /* logo-container */
 #logo-container {
     width:80%;
@@ -93,7 +96,17 @@ a {
 main {
     width:80%;
     margin:100px auto;
-
+}
+main::before {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/background-logo.png");
+    background-size: contain;
+    content: "";
+    z-index: -1;
 }
 .main-container {
     display:flex;
