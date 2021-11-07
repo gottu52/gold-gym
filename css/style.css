@@ -103,7 +103,7 @@ main::before {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: url("../images/background-logo.png");
+    background: url("../images/background-logo.png") no-repeat;
     background-size: contain;
     content: "";
     z-index: -1;
@@ -149,6 +149,17 @@ main::before {
     }
     .responsive {
         display: block;
+    }
+    main::before {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: url("../images/background-logo-responsive.png") no-repeat;
+        background-size: contain;
+        content: "";
+        z-index: -1;
     }
 }
 /* price */
