@@ -168,6 +168,7 @@ main::before {
 }
 #price-border {
     border:2px solid white;
+    background: black;
     padding-bottom:20px;
     margin-bottom:100px;
 }
@@ -186,15 +187,12 @@ main::before {
 .price-contents {
     margin:0;
     padding:0;
-    width:40%;
+    width: 33%;
     text-align:center;
 }
 .price-content {
     font-size:30px;
     font-weight:bold;
-}
-#price-target {
-    width: 20px;
 }
 .red {
     color:red;
@@ -205,9 +203,6 @@ main::before {
     }
     .price-content {
         font-size: 15px;
-    }
-    span {
-        display: none;
     }
 }
 /* access */
